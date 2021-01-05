@@ -1,0 +1,27 @@
+### WAP of below patter using nested loop
+#  *
+#  **
+#  ***
+#  ****
+#  *****
+#  ****
+#  ***
+#  **
+#  *
+
+for i in range(0,4):
+    for j in range(0,i+1):
+        print("*", end="")
+    print("\r")
+for i in range(5,-1,-1):
+    for j in range(0,i+1):
+        print("*", end="")
+    print("\r")
+    
+    
+    
+### WAP to reverse a word after accepting the input from user
+
+str=input("Enter input word :")
+print("The original word :", str)
+print("The reverse word :", str[::-1])
